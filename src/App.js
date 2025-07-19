@@ -206,7 +206,7 @@ function App() {
           <div className="hero-top">
             {/* Dark mode toggle moved to header */}
           </div>
-          <h1 className="hero-title">Esiri Onokurhefe, P.Eng., PMP</h1>
+          <h1 className="hero-title">Esiri Onokurhefe</h1>
           <p className="hero-subtitle">Data Science & Analytics Professional</p>
           <p className="hero-location">Canada</p>
           <div className="hero-links">
