@@ -141,12 +141,17 @@ function App() {
   const toggleMenu = () => setMenuOpen(open => !open);
   const closeMenu = () => setMenuOpen(false);
 
-  // Smooth scroll to section
+  // Smooth scroll to section with header offset
   const handleNavClick = (e, id) => {
     e.preventDefault();
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
+      const headerHeight = 80; // Approximate header height in pixels
+      const elementPosition = el.offsetTop - headerHeight;
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth'
+      });
       closeMenu();
     }
   };
