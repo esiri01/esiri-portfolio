@@ -208,7 +208,6 @@ function App() {
           </div>
           <h1 className="hero-title">Esiri Onokurhefe</h1>
           <p className="hero-subtitle">Data Science & Analytics Professional</p>
-          <p className="hero-location">Canada</p>
           <div className="hero-links">
             <a href="tel:226-339-6421" className="icon-btn"><FaPhone /></a>
             <a href="mailto:esiri.onokurhefe@gmail.com" className="icon-btn" target="_blank" rel="noopener noreferrer"><FaEnvelope /></a>
